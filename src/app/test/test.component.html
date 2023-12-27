@@ -1,0 +1,76 @@
+<mat-error>* Timer start after selection</mat-error><br>
+<mat-error>* You can not reselect before session time</mat-error><br>
+<mat-error>* If you reset your test will be submitted automatically</mat-error><br>
+
+<div>
+    <label for="dropdown">Select an option for test:</label>
+    <select id="dropdown" [(ngModel)]="selectedValue" (change)="onSelectionChange()" [disabled]="isDropdownDisabled">
+        <option *ngFor="let option of dropdownOptions" [value]="option.value">{{ option.label }}</option>
+    </select>
+</div>
+<!-- <button type="button" class="btn btn-warning" (click)="reset()">Reset</button> -->
+<h3>Time Left: <span class="blink_me">{{ timeLeftMin | number: '2.0' }}:{{ timeLeftSec | number: '2.0' }} </span>
+</h3>
+<div class="card" style="width:100%;" *ngIf="!quizCompleted && getCurrentQuestion()">
+    <img src="../assets/background logo/html.png" class="card-img-top" alt="..."
+        *ngIf="getCurrentQuestion().type =='HTML'">
+    <img src="../assets/background logo/css3.jpeg" class="card-img-top" alt="..."
+        *ngIf="getCurrentQuestion().type =='CSS'">
+    <img src="../assets/background logo/javascript.jpeg" class="card-img-top" alt="..."
+        *ngIf="getCurrentQuestion().type =='JavaScript'">
+
+    <div class="card-body">
+
+
+        <h5 class="card-title">{{data.type}}</h5>
+        <p class="card-text">
+
+            {{ getCurrentQuestion().question }}
+        </p>
+
+        <p
+            *ngFor="let option of [getCurrentQuestion().option1, getCurrentQuestion().option2, getCurrentQuestion().option3]">
+            <label>
+                <input type="radio" name="answer" (change)="selectAnswer(option)">
+                {{ option }}
+            </label>
+        </p>
+    </div>
+    <div class="card-action">
+        <button type="button" class="btn btn-success" style="float: left;" (click)="previousQuestion()"
+            *ngIf="currentQuestionIndex > 0">Previous</button>
+        <button type="button" class="btn btn-warning" (click)="nextQuestion()"
+            *ngIf="currentQuestionIndex < quizQuestions.length - 1" [disabled]="isButtonDisabled">Next</button>
+
+        <button style="float: right;" class="btn btn-danger" *ngIf="currentQuestionIndex"
+            (click)="finishQuiz()">Finish</button>
+    </div>
+</div>
+
+
+
+<div class="card" style="width:100%;" *ngIf="quizCompleted">
+    <div class="card-body">
+        <h5 class="card-title">
+            <h2>Quiz Completed</h2>
+        </h5>
+        <div class="card-text">
+            <p>Overall Results:{{result}}</p>
+            <p>Total Questions: {{ quizQuestions.length }}</p>
+            <p>Accuracy: {{ calculateAccuracy() }}%</p>
+        </div>
+        <button class="btn btn-warning" (click)="retake()">Retake Again</button>
+
+        <!-- <button type="button" class="btn btn-success" (click)="verifyAnswers()">See Answers</button> -->
+    </div>
+
+</div>
+<!-- <div *ngIf="verifyData">
+
+    
+    Questions: {{ userverifyAnswers }}<br>
+
+    Answers: {{ getCurrentQuestion().correct }}
+
+
+</div> -->

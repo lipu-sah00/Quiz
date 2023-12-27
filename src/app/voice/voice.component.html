@@ -1,0 +1,32 @@
+<div class="container">
+    <div>
+        <h3>Permission Required:</h3>
+        <p> <mat-icon>perm_camera_mic</mat-icon>Camera & Microphone: </p>
+        <p> <mat-icon>cell_wifi</mat-icon> <mat-icon>perm_scan_wifi</mat-icon> Network/Wifi: </p>
+        <mat-error> {{errorObject}}</mat-error>
+    </div>
+    <video #videoElement autoplay></video>
+
+    <div *ngIf="timer > 0">Time remaining: {{ timer }} seconds</div>
+    <p class="title">
+        <button mat-raised-button color="accent" (click)="speakSentences()" [disabled]="allSentencesCompleted">
+            Take Voice Test</button>
+        <span *ngIf="isSpeakerOn">
+            <mat-icon>record_voice_over</mat-icon>
+        </span>
+    </p>
+    <div class="user-select">
+        <div *ngIf="userResponse.isRecording">
+            <mat-icon>settings_voice</mat-icon> Recording Your Response !
+        </div>
+
+        <div *ngIf="userResponse.isdownloading">
+            <mat-icon>play_for_work</mat-icon>Downloading Responses !
+        </div>
+
+    </div>
+
+    <ul class="fn-question" *ngFor="let spokenSentence of spokenSentences">
+        <li> {{ spokenSentence }}</li>
+    </ul>
+</div>

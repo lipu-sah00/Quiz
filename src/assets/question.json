@@ -1,0 +1,920 @@
+[
+  {
+    "type": "HTML",
+    "id": 1,
+    "question": "What is Doctype! ?",
+    "option1": "It define the metadata.",
+    "option2": "load external script.",
+    "option3": "Check version of html.",
+    "correct": "Check version of html."
+  },
+  {
+    "type": "HTML",
+    "id": 2,
+    "question": "which is not a tag !",
+    "option1": "<p>",
+    "option2": "<x>",
+    "option3": "<b>",
+    "correct": "<x>"
+  },
+  {
+    "type": "HTML",
+    "id": 3,
+    "question": "HTML stands for -",
+    "option1": "HighText Machine Language",
+    "option2": "HyperText and links Markup Language",
+    "option3": "HyperText Markup Language",
+    "correct": "HyperText Markup Language"
+  },
+  {
+    "type": "HTML",
+    "id": 4,
+    "question": "The correct sequence of HTML tags for starting a webpage is -                                                  ",
+    "option1": " Head, Title, HTML, body                                                   ",
+    "option2": " HTML, Body, Title, Head                                                    ",
+    "option3": "  HTML, Head, Title, Body                                                   ",
+    "correct": " HTML, Head, Title, Body                                                     "
+  },
+  {
+    "type": "HTML",
+    "id": 5,
+    "question": "What does the HTML acronym DOCTYPE stand for?",
+    "option1": "Document Object Type Element",
+    "option2": "Document Object Type Extension",
+    "option3": "Document Type Definition",
+    "correct": "Document Type Definition"
+  },
+  {
+    "type": "CSS",
+    "id": 6,
+    "question": "Which property is used to set the background color in CSS?",
+    "option1": "background-color",
+    "option2": "color-background",
+    "option3": "bg-color",
+    "correct": "background-color"
+  },
+  {
+    "type": "JavaScript",
+    "id": 7,
+    "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "option1": "To check if a variable is defined",
+    "option2": "To determine the type of a variable or expression",
+    "option3": "To create a new variable",
+    "correct": "To determine the type of a variable or expression"
+  },
+  {
+    "type": "HTML",
+    "id": 8,
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "option1": "<link>",
+    "option2": "<a>",
+    "option3": "<href>",
+    "correct": "<a>"
+  },
+  {
+    "type": "CSS",
+    "id": 9,
+    "question": "In CSS, what does the 'margin' property control?",
+    "option1": "Spacing inside an element",
+    "option2": "Spacing outside an element",
+    "option3": "Text alignment",
+    "correct": "Spacing outside an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 10,
+    "question": "What is the purpose of the 'addEventListener' method in JavaScript?",
+    "option1": "To add a new element to the DOM",
+    "option2": "To attach an event handler to an element",
+    "option3": "To remove an event listener",
+    "correct": "To attach an event handler to an element"
+  },
+  {
+    "type": "HTML",
+    "id": 11,
+    "question": "Which HTML tag is used for creating an unordered list?",
+    "option1": "<ul>",
+    "option2": "<ol>",
+    "option3": "<li>",
+    "correct": "<ul>"
+  },
+  {
+    "type": "CSS",
+    "id": 12,
+    "question": "How can you select all paragraphs with the class 'intro' in CSS?",
+    "option1": ".intro",
+    "option2": "#intro",
+    "option3": "p.intro",
+    "correct": "p.intro"
+  },
+  {
+    "type": "JavaScript",
+    "id": 13,
+    "question": "What does the 'isNaN' function in JavaScript do?",
+    "option1": "Checks if a value is not a number",
+    "option2": "Converts a string to a number",
+    "option3": "Returns the square root of a number",
+    "correct": "Checks if a value is not a number"
+  },
+  {
+    "type": "HTML",
+    "id": 14,
+    "question": "Which HTML tag is used to define the structure of an HTML document, including the head and body sections?",
+    "option1": "<structure>",
+    "option2": "<document>",
+    "option3": "<html>",
+    "correct": "<html>"
+  },
+  {
+    "type": "CSS",
+    "id": 15,
+    "question": "What is the purpose of the 'box-sizing' property in CSS?",
+    "option1": "To set the size of the outer box",
+    "option2": "To control the size of the content box",
+    "option3": "To specify the border-box model",
+    "correct": "To specify the border-box model"
+  },
+  {
+    "type": "JavaScript",
+    "id": 16,
+    "question": "What does the 'return' statement do in a JavaScript function?",
+    "option1": "Ends the function execution",
+    "option2": "Outputs a value and ends the function execution",
+    "option3": "Declares a variable",
+    "correct": "Outputs a value and ends the function execution"
+  },
+  {
+    "type": "HTML",
+    "id": 17,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "option1": "style",
+    "option2": "css",
+    "option3": "inline",
+    "correct": "style"
+  },
+  {
+    "type": "CSS",
+    "id": 18,
+    "question": "What is the purpose of the 'flexbox' layout in CSS?",
+    "option1": "To create a fixed layout",
+    "option2": "To create a responsive and flexible layout",
+    "option3": "To style text and fonts",
+    "correct": "To create a responsive and flexible layout"
+  },
+  {
+    "type": "JavaScript",
+    "id": 19,
+    "question": "How do you declare a variable in JavaScript?",
+    "option1": "var variableName;",
+    "option2": "let variableName;",
+    "option3": "const variableName;",
+    "correct": "var variableName;"
+  },
+  {
+    "type": "HTML",
+    "id": 20,
+    "question": "What does the 'alt' attribute in the 'img' tag represent?",
+    "option1": "Alternative text for the image",
+    "option2": "Alignment of the image",
+    "option3": "Attribute length of the image",
+    "correct": "Alternative text for the image"
+  },
+  {
+    "type": "CSS",
+    "id": 21,
+    "question": "In CSS, what does the 'z-index' property control?",
+    "option1": "Text alignment",
+    "option2": "Stacking order of elements",
+    "option3": "Spacing inside an element",
+    "correct": "Stacking order of elements"
+  },
+  {
+    "type": "JavaScript",
+    "id": 22,
+    "question": "What is the purpose of the 'JSON.parse()' method in JavaScript?",
+    "option1": "To stringify a JavaScript object",
+    "option2": "To parse JSON data into a JavaScript object",
+    "option3": "To encode data for URL use",
+    "correct": "To parse JSON data into a JavaScript object"
+  },
+  {
+    "type": "HTML",
+    "id": 23,
+    "question": "What does the HTML acronym API stand for?",
+    "option1": "Application Programming Interface",
+    "option2": "Advanced Page Integration",
+    "option3": "Automated Program Interaction",
+    "correct": "Application Programming Interface"
+  },
+  {
+    "type": "CSS",
+    "id": 24,
+    "question": "Which CSS property is used to set the text color of an element?",
+    "option1": "text-color",
+    "option2": "font-color",
+    "option3": "color",
+    "correct": "color"
+  },
+  {
+    "type": "JavaScript",
+    "id": 25,
+    "question": "What is the purpose of the 'map()' function in JavaScript?",
+    "option1": "To iterate over the elements of an array",
+    "option2": "To create a new array with the results of calling a provided function on every element",
+    "option3": "To filter elements in an array",
+    "correct": "To create a new array with the results of calling a provided function on every element"
+  },
+  {
+    "type": "HTML",
+    "id": 26,
+    "question": "Which HTML tag is used to embed a video?",
+    "option1": "<video>",
+    "option2": "<embed>",
+    "option3": "<media>",
+    "correct": "<video>"
+  },
+  {
+    "type": "CSS",
+    "id": 27,
+    "question": "What is the purpose of the 'box-shadow' property in CSS?",
+    "option1": "To add a shadow to the content of an element",
+    "option2": "To add a shadow to the border of an element",
+    "option3": "To add a shadow to the entire box of an element",
+    "correct": "To add a shadow to the entire box of an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 28,
+    "question": "What is an immediately invoked function expression (IIFE) in JavaScript?",
+    "option1": "A function that is called immediately after it's defined",
+    "option2": "A function that is invoked using 'invoke()' method",
+    "option3": "A function that runs indefinitely",
+    "correct": "A function that is called immediately after it's defined"
+  },
+  {
+    "type": "HTML",
+    "id": 29,
+    "question": "Which HTML tag is used for creating a line break?",
+    "option1": "<br>",
+    "option2": "<lb>",
+    "option3": "<newline>",
+    "correct": "<br>"
+  },
+  {
+    "type": "CSS",
+    "id": 30,
+    "question": "What does the 'display: flex;' property value do in CSS?",
+    "option1": "It sets an element as a block-level container",
+    "option2": "It enables the flexbox layout for an element",
+    "option3": "It hides an element",
+    "correct": "It enables the flexbox layout for an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 31,
+    "question": "What is the purpose of the 'splice()' method in JavaScript?",
+    "option1": "To remove elements from an array",
+    "option2": "To add elements to an array",
+    "option3": "To sort elements in an array",
+    "correct": "To remove elements from an array"
+  },
+  {
+    "type": "HTML",
+    "id": 32,
+    "question": "What is the purpose of the 'meta' tag in HTML?",
+    "option1": "To define metadata about an HTML document",
+    "option2": "To create a hyperlink",
+    "option3": "To define a new section in the document",
+    "correct": "To define metadata about an HTML document"
+  },
+  {
+    "type": "HTML",
+    "id": 33,
+    "question": "What is the purpose of the 'form' element in HTML?",
+    "option1": "To create a table",
+    "option2": "To define a navigation menu",
+    "option3": "To create a container for input fields",
+    "correct": "To create a container for input fields"
+  },
+  {
+    "type": "CSS",
+    "id": 34,
+    "question": "Which CSS property is used to control the spacing between lines of text?",
+    "option1": "line-height",
+    "option2": "text-spacing",
+    "option3": "line-spacing",
+    "correct": "line-height"
+  },
+  {
+    "type": "JavaScript",
+    "id": 35,
+    "question": "What is the purpose of the 'querySelector' method in JavaScript?",
+    "option1": "To select the first element that matches a specified CSS selector",
+    "option2": "To select all elements that match a specified CSS selector",
+    "option3": "To select elements based on their data attributes",
+    "correct": "To select the first element that matches a specified CSS selector"
+  },
+  {
+    "type": "HTML",
+    "id": 36,
+    "question": "Which HTML tag is used for creating a hyperlink to an email address?",
+    "option1": "<email>",
+    "option2": "<mail>",
+    "option3": "<a>",
+    "correct": "<a>"
+  },
+  {
+    "type": "CSS",
+    "id": 37,
+    "question": "What is the purpose of the 'position: absolute;' property value in CSS?",
+    "option1": "It positions an element relative to its normal position",
+    "option2": "It removes an element from the normal document flow",
+    "option3": "It makes an element take the full width of its container",
+    "correct": "It positions an element relative to its normal position"
+  },
+  {
+    "type": "JavaScript",
+    "id": 38,
+    "question": "What is a closure in JavaScript?",
+    "option1": "A function that has no parameters",
+    "option2": "A combination of variables and functions enclosed within another function",
+    "option3": "A method to close a web page",
+    "correct": "A combination of variables and functions enclosed within another function"
+  },
+  {
+    "type": "HTML",
+    "id": 39,
+    "question": "Which HTML tag is used for creating an ordered list?",
+    "option1": "<ol>",
+    "option2": "<ul>",
+    "option3": "<li>",
+    "correct": "<ol>"
+  },
+  {
+    "type": "CSS",
+    "id": 40,
+    "question": "What is the purpose of the 'transition' property in CSS?",
+    "option1": "To add a transition effect to an element",
+    "option2": "To create a responsive layout",
+    "option3": "To define a time delay for animations",
+    "correct": "To add a transition effect to an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 41,
+    "question": "What does the 'event.preventDefault()' method do in JavaScript?",
+    "option1": "It prevents the default action of an event from being triggered",
+    "option2": "It stops the propagation of an event to parent elements",
+    "option3": "It removes an event listener",
+    "correct": "It prevents the default action of an event from being triggered"
+  },
+  {
+    "type": "HTML",
+    "id": 42,
+    "question": "What is the purpose of the 'aside' element in HTML?",
+    "option1": "To define a section that contains navigation links",
+    "option2": "To represent content that is tangentially related to the content around it",
+    "option3": "To create a side-scrolling effect",
+    "correct": "To represent content that is tangentially related to the content around it"
+  },
+  {
+    "type": "HTML",
+    "id": 43,
+    "question": "What does the HTML 'data-*' attribute allow you to do?",
+    "option1": "Define custom attributes for elements",
+    "option2": "Specify a data type for input elements",
+    "option3": "Link to external data files",
+    "correct": "Define custom attributes for elements"
+  },
+  {
+    "type": "CSS",
+    "id": 44,
+    "question": "How can you center an element horizontally in CSS?",
+    "option1": "text-align: center;",
+    "option2": "margin: auto;",
+    "option3": "align: center;",
+    "correct": "margin: auto;"
+  },
+  {
+    "type": "JavaScript",
+    "id": 45,
+    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "option1": "To store data that persists even when the browser is closed",
+    "option2": "To store temporary session data",
+    "option3": "To retrieve data from an external API",
+    "correct": "To store data that persists even when the browser is closed"
+  },
+  {
+    "type": "HTML",
+    "id": 46,
+    "question": "Which HTML tag is used to define a table header?",
+    "option1": "<th>",
+    "option2": "<thead>",
+    "option3": "<header>",
+    "correct": "<th>"
+  },
+  {
+    "type": "CSS",
+    "id": 47,
+    "question": "What is the purpose of the 'media queries' in CSS?",
+    "option1": "To create responsive designs based on the device characteristics",
+    "option2": "To apply styles to media elements like images and videos",
+    "option3": "To define print styles for documents",
+    "correct": "To create responsive designs based on the device characteristics"
+  },
+  {
+    "type": "JavaScript",
+    "id": 48,
+    "question": "What is the purpose of the 'async' attribute in the script tag?",
+    "option1": "To load the script asynchronously",
+    "option2": "To define a function as asynchronous",
+    "option3": "To defer the script execution",
+    "correct": "To load the script asynchronously"
+  },
+  {
+    "type": "HTML",
+    "id": 49,
+    "question": "What is the purpose of the 'figcaption' element in HTML?",
+    "option1": "To define the figure of an image",
+    "option2": "To add a caption to a figure",
+    "option3": "To specify the font size of a figure",
+    "correct": "To add a caption to a figure"
+  },
+  {
+    "type": "CSS",
+    "id": 50,
+    "question": "How can you select all paragraphs that are direct children of a div in CSS?",
+    "option1": "div p",
+    "option2": "div > p",
+    "option3": "div + p",
+    "correct": "div > p"
+  },
+  {
+    "type": "JavaScript",
+    "id": 51,
+    "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+    "option1": "To retrieve the keys of an object",
+    "option2": "To create a new object",
+    "option3": "To check if an object has a specific key",
+    "correct": "To retrieve the keys of an object"
+  },
+  {
+    "type": "HTML",
+    "id": 52,
+    "question": "Which HTML attribute is used to provide additional information about an element?",
+    "option1": "info",
+    "option2": "description",
+    "option3": "title",
+    "correct": "title"
+  },
+  {
+    "type": "HTML",
+    "id": 53,
+    "question": "What is the purpose of the 'iframe' element in HTML?",
+    "option1": "To create a fixed-size container for content",
+    "option2": "To embed external content within a web page",
+    "option3": "To define a new section in the document",
+    "correct": "To embed external content within a web page"
+  },
+  {
+    "type": "CSS",
+    "id": 54,
+    "question": "How can you apply a CSS style to an element when a user hovers over it?",
+    "option1": ":hover",
+    "option2": ":active",
+    "option3": ":focus",
+    "correct": ":hover"
+  },
+  {
+    "type": "JavaScript",
+    "id": 55,
+    "question": "What is the purpose of the 'Math.random()' function in JavaScript?",
+    "option1": "To generate a random number between 0 and 1",
+    "option2": "To round a number to the nearest integer",
+    "option3": "To calculate the square root of a number",
+    "correct": "To generate a random number between 0 and 1"
+  },
+  {
+    "type": "HTML",
+    "id": 56,
+    "question": "Which HTML tag is used to create a horizontal line?",
+    "option1": "<line>",
+    "option2": "<hr>",
+    "option3": "<horizontal>",
+    "correct": "<hr>"
+  },
+  {
+    "type": "CSS",
+    "id": 57,
+    "question": "What is the purpose of the 'overflow' property in CSS?",
+    "option1": "To add a shadow to an element",
+    "option2": "To control the visibility of an element's overflow content",
+    "option3": "To set the background color of an element",
+    "correct": "To control the visibility of an element's overflow content"
+  },
+  {
+    "type": "JavaScript",
+    "id": 58,
+    "question": "What does the 'Array.isArray()' method check in JavaScript?",
+    "option1": "If a variable is an object",
+    "option2": "If a variable is an array",
+    "option3": "If a variable is a string",
+    "correct": "If a variable is an array"
+  },
+  {
+    "type": "HTML",
+    "id": 59,
+    "question": "Which HTML attribute is used to specify the source of an image?",
+    "option1": "src",
+    "option2": "link",
+    "option3": "href",
+    "correct": "src"
+  },
+  {
+    "type": "CSS",
+    "id": 60,
+    "question": "What is the purpose of the 'flex-grow' property in CSS?",
+    "option1": "To control the growth of flex items",
+    "option2": "To set the background color of a flex container",
+    "option3": "To define the flex direction",
+    "correct": "To control the growth of flex items"
+  },
+  {
+    "type": "JavaScript",
+    "id": 61,
+    "question": "What is the purpose of the 'localStorage' compared to 'sessionStorage' in JavaScript?",
+    "option1": "localStorage stores data with no expiration time",
+    "option2": "sessionStorage stores data with no expiration time",
+    "option3": "localStorage stores data for the duration of the session",
+    "correct": "localStorage stores data with no expiration time"
+  },
+  {
+    "type": "HTML",
+    "id": 62,
+    "question": "Which HTML tag is used for creating an input field for entering a date?",
+    "option1": "<input type='date'>",
+    "option2": "<input type='text'>",
+    "option3": "<date>",
+    "correct": "<input type='date'>"
+  },
+  {
+    "type": "HTML",
+    "id": 63,
+    "question": "What is the purpose of the 'figure' element in HTML?",
+    "option1": "To define a caption for an image",
+    "option2": "To represent content that is referenced from the main content",
+    "option3": "To create a block-level container",
+    "correct": "To represent content that is referenced from the main content"
+  },
+  {
+    "type": "CSS",
+    "id": 64,
+    "question": "How can you select the first child element of a parent in CSS?",
+    "option1": ":first",
+    "option2": ":first-child",
+    "option3": ":first-of-type",
+    "correct": ":first-child"
+  },
+  {
+    "type": "JavaScript",
+    "id": 65,
+    "question": "What does the 'Array.prototype.map()' method do in JavaScript?",
+    "option1": "Modifies the original array",
+    "option2": "Creates a new array with the results of calling a provided function on every element",
+    "option3": "Filters elements in an array based on a condition",
+    "correct": "Creates a new array with the results of calling a provided function on every element"
+  },
+  {
+    "type": "HTML",
+    "id": 66,
+    "question": "Which HTML tag is used for creating an unordered list with square bullets?",
+    "option1": "<ul type='square'>",
+    "option2": "<ul style='list-style-type: square;'>",
+    "option3": "<ul class='square'>",
+    "correct": "<ul style='list-style-type: square;'>"
+  },
+  {
+    "type": "CSS",
+    "id": 67,
+    "question": "What is the purpose of the 'box-sizing: border-box;' property value in CSS?",
+    "option1": "To include the border and padding in the total width and height of an element",
+    "option2": "To exclude the border and padding from the total width and height of an element",
+    "option3": "To apply a border and padding to an element",
+    "correct": "To include the border and padding in the total width and height of an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 68,
+    "question": "How do you declare a constant variable in JavaScript?",
+    "option1": "const variableName;",
+    "option2": "let variableName;",
+    "option3": "var variableName;",
+    "correct": "const variableName;"
+  },
+  {
+    "type": "HTML",
+    "id": 69,
+    "question": "Which HTML tag is used for creating a dropdown list?",
+    "option1": "<list>",
+    "option2": "<dropdown>",
+    "option3": "<select>",
+    "correct": "<select>"
+  },
+  {
+    "type": "CSS",
+    "id": 70,
+    "question": "What is the purpose of the 'float' property in CSS?",
+    "option1": "To align text to the right",
+    "option2": "To create a floating effect for an element",
+    "option3": "To clear floats in a container",
+    "correct": "To create a floating effect for an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 71,
+    "question": "What does the 'Array.prototype.filter()' method do in JavaScript?",
+    "option1": "Modifies the original array",
+    "option2": "Creates a new array with elements that pass a test",
+    "option3": "Sorts the elements of an array",
+    "correct": "Creates a new array with elements that pass a test"
+  },
+  {
+    "type": "HTML",
+    "id": 72,
+    "question": "What is the purpose of the 'meta' tag with 'charset' attribute in HTML?",
+    "option1": "To define the character encoding for the document",
+    "option2": "To create a meta description for the page",
+    "option3": "To link to an external stylesheet",
+    "correct": "To define the character encoding for the document"
+  },
+  {
+    "type": "HTML",
+    "id": 73,
+    "question": "What is the purpose of the 'nav' element in HTML?",
+    "option1": "To define a new navigation section",
+    "option2": "To create a nested list",
+    "option3": "To define a hyperlink",
+    "correct": "To define a new navigation section"
+  },
+  {
+    "type": "CSS",
+    "id": 74,
+    "question": "How can you center an element both horizontally and vertically in CSS?",
+    "option1": "text-align: center; and vertical-align: center;",
+    "option2": "margin: auto; and vertical-align: middle;",
+    "option3": "margin: auto; and display: flex; align-items: center; justify-content: center;",
+    "correct": "margin: auto; and display: flex; align-items: center; justify-content: center;"
+  },
+  {
+    "type": "JavaScript",
+    "id": 75,
+    "question": "What is the purpose of the 'Object.create()' method in JavaScript?",
+    "option1": "To create a new object with the specified prototype object and properties",
+    "option2": "To delete an object's prototype",
+    "option3": "To check if an object has a specific property",
+    "correct": "To create a new object with the specified prototype object and properties"
+  },
+  {
+    "type": "HTML",
+    "id": 76,
+    "question": "Which HTML tag is used to create a bold text?",
+    "option1": "<strong>",
+    "option2": "<bold>",
+    "option3": "<b>",
+    "correct": "<strong>"
+  },
+  {
+    "type": "CSS",
+    "id": 77,
+    "question": "What is the purpose of the 'position: relative;' property value in CSS?",
+    "option1": "To position an element relative to its normal position",
+    "option2": "To make an element invisible",
+    "option3": "To create a fixed position element",
+    "correct": "To position an element relative to its normal position"
+  },
+  {
+    "type": "JavaScript",
+    "id": 78,
+    "question": "What is the purpose of the 'Array.prototype.reduce()' method in JavaScript?",
+    "option1": "To create a new array with elements that pass a test",
+    "option2": "To reduce an array to a single value by executing a provided function",
+    "option3": "To sort the elements of an array",
+    "correct": "To reduce an array to a single value by executing a provided function"
+  },
+  {
+    "type": "HTML",
+    "id": 79,
+    "question": "What is the purpose of the 'footer' element in HTML?",
+    "option1": "To create a new section in the document",
+    "option2": "To define the main content of the page",
+    "option3": "To define a footer for a section or a page",
+    "correct": "To define a footer for a section or a page"
+  },
+  {
+    "type": "CSS",
+    "id": 80,
+    "question": "How can you apply styles to only the first letter of a text element in CSS?",
+    "option1": "::first-letter",
+    "option2": ":first-char",
+    "option3": "::start-letter",
+    "correct": "::first-letter"
+  },
+  {
+    "type": "JavaScript",
+    "id": 81,
+    "question": "What is the purpose of the 'setTimeout()' function in JavaScript?",
+    "option1": "To delay the execution of a function by a specified number of milliseconds",
+    "option2": "To execute a function repeatedly at a fixed interval",
+    "option3": "To clear a timeout set by 'setInterval()'",
+    "correct": "To delay the execution of a function by a specified number of milliseconds"
+  },
+  {
+    "type": "HTML",
+    "id": 82,
+    "question": "Which HTML tag is used for creating an input field for entering a password?",
+    "option1": "<input type='password'>",
+    "option2": "<input type='text' password>",
+    "option3": "<password>",
+    "correct": "<input type='password'>"
+  },
+  {
+    "type": "HTML",
+    "id": 83,
+    "question": "What is the purpose of the 'abbr' element in HTML?",
+    "option1": "To define a block of text",
+    "option2": "To create an abbreviation or acronym",
+    "option3": "To insert a line break",
+    "correct": "To create an abbreviation or acronym"
+  },
+  {
+    "type": "CSS",
+    "id": 84,
+    "question": "How can you hide an element in CSS without removing it from the document flow?",
+    "option1": "visibility: hidden;",
+    "option2": "display: none;",
+    "option3": "opacity: 0;",
+    "correct": "visibility: hidden;"
+  },
+  {
+    "type": "JavaScript",
+    "id": 85,
+    "question": "What is the purpose of the 'Promise' object in JavaScript?",
+    "option1": "To represent a value that may be available now, or in the future, or never",
+    "option2": "To define a variable with a promise value",
+    "option3": "To create a conditional statement",
+    "correct": "To represent a value that may be available now, or in the future, or never"
+  },
+  {
+    "type": "HTML",
+    "id": 86,
+    "question": "Which HTML attribute is used to provide additional information about an element for user agents or assistive technologies?",
+    "option1": "info",
+    "option2": "description",
+    "option3": "aria-*",
+    "correct": "aria-*"
+  },
+  {
+    "type": "CSS",
+    "id": 87,
+    "question": "What is the purpose of the 'max-width' property in CSS?",
+    "option1": "To set the maximum height of an element",
+    "option2": "To set the maximum width of an element",
+    "option3": "To limit the width of an element based on its parent's width",
+    "correct": "To limit the width of an element based on its parent's width"
+  },
+  {
+    "type": "JavaScript",
+    "id": 88,
+    "question": "What does the 'this' keyword refer to in JavaScript?",
+    "option1": "The previous function in the call stack",
+    "option2": "The global object",
+    "option3": "The current object or context in which the code is executed",
+    "correct": "The current object or context in which the code is executed"
+  },
+  {
+    "type": "HTML",
+    "id": 89,
+    "question": "Which HTML tag is used to create a hyperlink that opens in a new tab or window?",
+    "option1": "<a target='_blank'>",
+    "option2": "<a href='newtab'>",
+    "option3": "<a href='javascript:void(0);' onclick='openInNewTab()'>",
+    "correct": "<a target='_blank'>"
+  },
+  {
+    "type": "CSS",
+    "id": 90,
+    "question": "What is the purpose of the 'clear' property in CSS?",
+    "option1": "To clear the styling of an element",
+    "option2": "To specify whether an element can be cleared from floating elements",
+    "option3": "To add space around an element",
+    "correct": "To specify whether an element can be cleared from floating elements"
+  },
+  {
+    "type": "JavaScript",
+    "id": 91,
+    "question": "What is the purpose of the 'try', 'catch', and 'finally' blocks in JavaScript?",
+    "option1": "To define a loop",
+    "option2": "To handle errors in code execution",
+    "option3": "To create a function",
+    "correct": "To handle errors in code execution"
+  },
+  {
+    "type": "HTML",
+    "id": 92,
+    "question": "Which HTML tag is used to define a section of text that has been inserted into a document?",
+    "option1": "<ins>",
+    "option2": "<insert>",
+    "option3": "<add>",
+    "correct": "<ins>"
+  },
+  {
+    "type": "HTML",
+    "id": 93,
+    "question": "What does the HTML 'role' attribute provide?",
+    "option1": "It defines the role of the document",
+    "option2": "It provides additional information about an element's purpose",
+    "option3": "It specifies the style of an element",
+    "correct": "It provides additional information about an element's purpose"
+  },
+  {
+    "type": "CSS",
+    "id": 94,
+    "question": "How can you center an element horizontally using flexbox in CSS?",
+    "option1": "justify-content: center;",
+    "option2": "align-items: center;",
+    "option3": "margin: auto;",
+    "correct": "justify-content: center;"
+  },
+  {
+    "type": "JavaScript",
+    "id": 95,
+    "question": "What is the purpose of the 'Event.preventDefault()' method in JavaScript?",
+    "option1": "To stop the execution of a function",
+    "option2": "To prevent the default behavior of an event",
+    "option3": "To clear a timeout set by 'setTimeout()'",
+    "correct": "To prevent the default behavior of an event"
+  },
+  {
+    "type": "HTML",
+    "id": 96,
+    "question": "Which HTML tag is used to define the main content of a document?",
+    "option1": "<main>",
+    "option2": "<content>",
+    "option3": "<body>",
+    "correct": "<main>"
+  },
+  {
+    "type": "CSS",
+    "id": 97,
+    "question": "What is the purpose of the 'z-index' property in CSS?",
+    "option1": "To set the z-axis rotation of an element",
+    "option2": "To control the stacking order of positioned elements",
+    "option3": "To define the zoom level of an element",
+    "correct": "To control the stacking order of positioned elements"
+  },
+  {
+    "type": "JavaScript",
+    "id": 98,
+    "question": "What is the purpose of the 'Object.freeze()' method in JavaScript?",
+    "option1": "To add properties to an object",
+    "option2": "To prevent the modification of an object, including adding or removing properties",
+    "option3": "To convert an object to a frozen state",
+    "correct": "To prevent the modification of an object, including adding or removing properties"
+  },
+  {
+    "type": "HTML",
+    "id": 99,
+    "question": "Which HTML tag is used for creating a container for navigation links?",
+    "option1": "<nav>",
+    "option2": "<navbar>",
+    "option3": "<menu>",
+    "correct": "<nav>"
+  },
+  {
+    "type": "CSS",
+    "id": 100,
+    "question": "What is the purpose of the 'transform' property in CSS?",
+    "option1": "To apply a 3D transformation to an element",
+    "option2": "To define the transition effect of an element",
+    "option3": "To modify the visual layout of an element",
+    "correct": "To modify the visual layout of an element"
+  },
+  {
+    "type": "JavaScript",
+    "id": 101,
+    "question": "What is the purpose of the 'fetch()' function in JavaScript?",
+    "option1": "To fetch and parse XML data",
+    "option2": "To fetch resources asynchronously from the network",
+    "option3": "To fetch local files from the device",
+    "correct": "To fetch resources asynchronously from the network"
+  },
+  {
+    "type": "HTML",
+    "id": 102,
+    "question": "Which HTML tag is used to define a section that contains navigation links or other contextual links?",
+    "option1": "<nav>",
+    "option2": "<section>",
+    "option3": "<linkset>",
+    "correct": "<nav>"
+  }
+]
